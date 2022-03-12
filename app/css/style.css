@@ -562,6 +562,10 @@ canvas {
     transition: opacity .2s, transform .2s;
 }
 
+.align {
+	right: 5px;
+}
+
 .close:hover {
     font-weight: 800;
     transform: rotateZ(90deg) scale(1.2);
