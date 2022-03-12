@@ -1,5 +1,5 @@
-# BOOLR - UPDATED - 1.0.6
-A digital logic simulator - [UPDATED] - 1.0.6
+# BOOLR
+A digital logic simulator
 
 #### How to develop on BOOLR
 
