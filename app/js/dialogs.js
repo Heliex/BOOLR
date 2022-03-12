@@ -148,7 +148,7 @@ dialog.update = function(component) {
 		"<li>Added SR Latch component as I/O</li>" +
 		"<li>Added FLIPFLOP component as I/O</li>" +
 		"<li>Saving board multi-os</li>" +
-		"<li>Updated electron version from 1.0.0 to 17.0.1</li>" +
+		"<li>Updated electron version from 1.0.0 to 17.1.0</li>" +
 		"<li>Fixed some UI issues</li>" +
         "</ul>";
     dialog.addOption("Close");

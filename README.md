@@ -25,8 +25,8 @@ Before building BOOLR, you'll have to make some changes so that your application
 
 - In index.html change line 94 : /../saves to /../../saves
 - In saves.js change line 2 : /../saves to /../../saves
-- In savedCustomComponents.js line 13 : /../data to /../../data
-- In savedCustomComponents.js line 21 : /../data to /../../data
+- In savedCustomComponents.js line 13 : /../data/customcomponents.json to /../../data/customcomponents.json
+- In savedCustomComponents.js line 21 : /../data/customcomponents.json to /../../data/customcomponents.json
 
 ```bash
 
@@ -38,8 +38,8 @@ After building :
 
 - In index.html change line 94 : /../../saves to /../saves
 - In saves.js change line 2 : /../../saves to /../saves to
-- In savedCustomComponents.js line 13 : /../data to /../data
-- In savedCustomComponents.js line 21 : /../data to /../data
+- In savedCustomComponents.js line 13 : /../data/customcomponents.json to /../data/customcomponents.json
+- In savedCustomComponents.js line 21 : /../data/customcomponents.json to /../data/customcomponents.json
 
 ## What's new SINCE V1.0.4
 
@@ -50,5 +50,5 @@ After building :
 - NAND, NOT AND XNOR gates.
 - Fix wire bugs.
 - Retrieve Saving board working on multi-OS.
-- Updated electron version from 1.0.0 to 17.0.1.
+- Updated electron version from 1.0.0 to 17.1.0.
 - Fixed some UI issues.
