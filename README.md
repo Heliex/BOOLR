@@ -1,25 +1,27 @@
-# BOOLR
-A digital logic simulator - [UPDATED]
+# BOOLR - UPDATED - 1.0.6
+A digital logic simulator - [UPDATED] - 1.0.6
 
-#### Running in development
+#### How to develop on BOOLR
 
 The most useful tools to dev is yarn, install yarn with npm 
 
 ```bash
-# Install Yarn
+# Install Yarn on your machine
 npm install -g yarn
 
-# Fetch dependencies
+# Get BOOLR from this repo (or fork it)
+git clone https://github.com/Heliex/BOOLR.git && cd BOOLR
+
+## Fetch dependencies
 yarn
 
-# Run in development
+## Run BOOLR
 yarn start
 ```
 
-### Building the app
+### How to build
 
-Before building the app you'll have to make some changes so that your application will work easily with saves function
-Before build do this : 
+Before building BOOLR, you'll have to make some changes so that your application will work with saves function :
 
 - In index.html change line 94 : /../saves to /../../saves
 - In saves.js change line 2 : /../saves to /../../saves
@@ -27,9 +29,26 @@ Before build do this :
 - In savedCustomComponents.js line 21 : /../data to /../../data
 
 ```bash
-yarn dist (it will take data from data folder for custom components and saves folder for saved board).
+
+# Build BOOLR
+yarn dist 
 ```
 
-After you make a build, don't forget to reverse the action to make saves function work again in development.
+After building : 
 
-GL
+- In index.html change line 94 : /../../saves to /../saves
+- In saves.js change line 2 : /../../saves to /../saves to
+- In savedCustomComponents.js line 13 : /../data to /../data
+- In savedCustomComponents.js line 21 : /../data to /../data
+
+## What's new SINCE V1.0.4
+
+- LED Array component.
+- D Latch component.
+- SR Latch Component.
+- Flip Flop Component.
+- NAND, NOT AND XNOR gates.
+- Fix wire bugs.
+- Retrieve Saving board working on multi-OS.
+- Updated electron version from 1.0.0 to 17.0.1.
+- Fixed some UI issues.

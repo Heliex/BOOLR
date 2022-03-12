@@ -1,7 +1,7 @@
 {
   "name": "BOOLR",
-  "description": "A digital logic simulator",
-  "version": "0.1.5",
+  "description": "A digital logic simulator - UPDATED",
+  "version": "1.0.6",
   "build": {
     "appId": "BOOLR",
     "extraResources": [

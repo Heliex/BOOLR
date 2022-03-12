@@ -138,12 +138,18 @@ dialog.update = function(component) {
     dialog.name.innerHTML = "Update " + VERSION;
 
     dialog.container.innerHTML += "<i class='material-icons' style='font-size: 60px'>update<i>";
-    dialog.container.innerHTML += "<p>What's new:</p>";
+    dialog.container.innerHTML += "<p>What's new in this version:</p>";
     dialog.container.innerHTML +=
-        "<ul style='width: 200px;'>" +
-        "<li>Tutorial</li>" +
-        "<li>New main menu</li>" +
-        "<li>New edit menu</li>" +
+        "<ul style='width: 250px;'>" +
+		"<li>Fix wire bugs</li>" +
+        "<li>New NAND, NOT and XNOR gates</li>" +
+        "<li>Added LED ARRAY component as I/O</li>" +
+		"<li>Added D Latch component as I/O</li>" +
+		"<li>Added SR Latch component as I/O</li>" +
+		"<li>Added FLIPFLOP component as I/O</li>" +
+		"<li>Saving board multi-os</li>" +
+		"<li>Updated electron version from 1.0.0 to 17.0.1</li>" +
+		"<li>Fixed some UI issues</li>" +
         "</ul>";
     dialog.addOption("Close");
 }
