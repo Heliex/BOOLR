@@ -37,7 +37,7 @@ yarn dist
 After building : 
 
 - In index.html change line 94 : /../../saves to /../saves
-- In saves.js change line 2 : /../../saves to /../saves to
+- In saves.js change line 2 : /../../saves to /../saves
 - In savedCustomComponents.js line 13 : /../data/customcomponents.json to /../data/customcomponents.json
 - In savedCustomComponents.js line 21 : /../data/customcomponents.json to /../data/customcomponents.json
 
